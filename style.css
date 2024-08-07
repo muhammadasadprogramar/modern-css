@@ -1,0 +1,1491 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Calistoga&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Lilita+One&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Bebas+Neue&family=Calistoga&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Lilita+One&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Bebas+Neue&family=Calistoga&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Lilita+One&family=Lobster&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Bebas+Neue&family=Calistoga&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Lilita+One&family=Lobster&family=Permanent+Marker&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Bebas+Neue&family=Calistoga&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Lilita+One&family=Lobster&family=Permanent+Marker&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Bebas+Neue&family=Bungee&family=Calistoga&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Ga+Maamli&family=Lilita+One&family=Lobster&family=Permanent+Marker&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+/* -------------"""-----BUTTONS---"""-------------- */
+
+.button-1 {
+  padding: 8px 25px;
+  background-color: #fff;
+  outline: none;
+  border: 2px solid #000;
+  cursor: pointer;
+  font-weight: 600;
+}
+.button-1:hover {
+  background-color: #111;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.button-1:active,
+.button-2:active,
+.button-3:active,
+.button-4:active,
+.button-5:active,
+.button-6:active,
+.button-7:active {
+  transform: scale(0.92);
+}
+
+.button-2 {
+  padding: 8px 30px;
+  background-color: #000;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 8px;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.button-2:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.button-3 {
+  padding: 8px 30px;
+  background-color: rgb(245, 151, 0);
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-top-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  color: #fff;
+  border: 2px solid rgb(245, 151, 0);
+}
+
+.button-3:hover {
+  background-color: #fff;
+  color: rgb(245, 151, 0);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.button-4 {
+  padding: 8px 30px;
+  background-color: rgb(250, 44, 78);
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+  color: #fff;
+  border: 2px solid rgb(250, 44, 78);
+}
+
+.button-4:hover {
+  background-color: #fff;
+  color: rgb(250, 44, 78);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.button-5 {
+  padding: 9px 30px;
+  background-color: #111;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 24px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.button-5:hover {
+  background-color: #111;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 7px;
+}
+.button-6 {
+  padding: 10px 35px;
+  background-color: rgb(12, 78, 80);
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 25px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.button-6:hover {
+  background-color: #111;
+  color: #fff;
+  transition: 0.3s;
+  border-top-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.button-7 {
+  padding: 10px 35px;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 25px;
+  color: rgb(13, 85, 97);
+  border: 3px solid rgb(13, 85, 97);
+}
+
+.button-7:hover {
+  background-color: rgb(13, 85, 97);
+  color: #fff;
+  box-shadow: 0 0 10px rgb(13, 85, 97);
+  transition: 0.3s;
+}
+
+/* -------------"""-----FONT COLORS-----"""-------------- */
+
+.red,
+.hover-red:hover {
+  color: red;
+}
+.red-1,
+.hover-red-1:hover {
+  color: rgb(73, 0, 0);
+}
+.red-2,
+.hover-red-2:hover {
+  color: rgb(132, 6, 6);
+}
+.red-3,
+.hover-red-3:hover {
+  color: rgb(168, 44, 44);
+}
+.red-4,
+.hover-red-4:hover {
+  color: rgb(223, 54, 54);
+}
+.red-5,
+.hover-red-5:hover {
+  color: rgb(188, 79, 79);
+}
+.red-6,
+.hover-red-6:hover {
+  color: rgb(255, 145, 145);
+}
+.red-7,
+.hover-red-7:hover {
+  color: rgb(255, 199, 199);
+}
+
+.blue,
+.hover-blue:hover {
+  color: blue;
+}
+.blue-1,
+.hover-blue-1:hover {
+  color: rgb(0, 0, 43);
+}
+.blue-2,
+.hover-blue-2:hover {
+  color: rgb(24, 24, 83);
+}
+.blue-3,
+.hover-blue-3:hover {
+  color: rgb(0, 0, 160);
+}
+.blue-4,
+.hover-blue-4:hover {
+  color: rgb(62, 62, 203);
+}
+.blue-5,
+.hover-blue-5:hover {
+  color: rgb(96, 96, 205);
+}
+.blue-6,
+.hover-blue-6:hover {
+  color: rgb(144, 144, 255);
+}
+.blue-7,
+.hover-blue-7:hover {
+  color: rgb(201, 201, 255);
+}
+
+.green,
+.hover-green:hover {
+  color: green;
+}
+.green-1,
+.hover-green-1:hover {
+  color: rgb(0, 14, 0);
+}
+.green-2,
+.hover-green-2:hover {
+  color: rgb(20, 87, 20);
+}
+.green-3,
+.hover-green-3:hover {
+  color: rgb(64, 195, 64);
+}
+.green-4,
+.hover-green-4:hover {
+  color: rgb(48, 255, 48);
+}
+.green-5,
+.hover-green-5:hover {
+  color: rgb(95, 185, 95);
+}
+.green-6,
+.hover-green-6:hover {
+  color: rgb(117, 255, 117);
+}
+.green-7,
+.hover-green-7:hover {
+  color: rgb(193, 250, 193);
+}
+
+.white,
+.hover-white:hover {
+  color: white;
+}
+.white-1,
+.hover-white-1:hover {
+  color: rgb(119, 119, 119);
+}
+.white-2,
+.hover-white-2:hover {
+  color: rgb(173, 173, 173);
+}
+.white-3,
+.hover-white-3:hover {
+  color: rgb(212, 212, 212);
+}
+.white-4,
+.hover-white-4:hover {
+  color: rgb(230, 230, 230);
+}
+.white-5,
+.hover-white-5:hover {
+  color: rgb(234, 234, 234);
+}
+.white-6,
+.hover-white-6:hover {
+  color: rgb(248, 248, 248);
+}
+.white-7,
+.hover-white-7:hover {
+  color: rgb(255, 255, 255);
+}
+
+.black,
+.hover-black:hover {
+  color: rgb(0, 0, 0);
+}
+.black-1,
+.hover-black-1:hover {
+  color: rgb(4, 4, 4);
+}
+.black-2,
+.hover-black-2:hover {
+  color: rgb(8, 8, 8);
+}
+.black-3,
+.hover-black-3:hover {
+  color: rgb(14, 14, 14);
+}
+.black-4,
+.hover-black-4:hover {
+  color: rgb(30, 30, 30);
+}
+.black-5,
+.hover-black-5:hover {
+  color: rgb(39, 39, 39);
+}
+.black-6,
+.hover-black-6:hover {
+  color: rgb(58, 58, 58);
+}
+.black-7,
+.hover-black-7:hover {
+  color: rgb(84, 84, 84);
+}
+
+.brown,
+.hover-brown:hover {
+  color: brown;
+}
+.brown-1,
+.hover-brown-1:hover {
+  color: rgb(49, 26, 26);
+}
+.brown-2,
+.hover-brown-2:hover {
+  color: rgb(101, 26, 26);
+}
+.brown-3,
+.hover-brown-3:hover {
+  color: rgb(130, 50, 50);
+}
+.brown-4,
+.hover-brown-4:hover {
+  color: rgb(176, 71, 71);
+}
+.brown-5,
+.hover-brown-5:hover {
+  color: rgb(235, 101, 101);
+}
+.brown-6,
+.hover-brown-6:hover {
+  color: rgb(205, 132, 132);
+}
+.brown-7,
+.hover-brown-7:hover {
+  color: rgb(144, 100, 100);
+}
+
+.yellow,
+.hover-yellow:hover {
+  color: yellow;
+}
+.yellow-1,
+.hover-yellow-1:hover {
+  color: rgb(39, 39, 0);
+}
+.yellow-2,
+.hover-yellow-2:hover {
+  color: rgb(92, 92, 22);
+}
+.yellow-3,
+.hover-yellow-3:hover {
+  color: rgb(223, 223, 11);
+}
+.yellow-4,
+.hover-yellow-4:hover {
+  color: rgb(228, 228, 84);
+}
+.yellow-5,
+.hover-yellow-5:hover {
+  color: rgb(255, 255, 123);
+}
+.yellow-6,
+.hover-yellow-6:hover {
+  color: rgb(180, 180, 117);
+}
+.yellow-7,
+.hover-yellow-7:hover {
+  color: rgb(255, 255, 212);
+}
+
+.orange,
+.hover-orange:hover {
+  color: rgb(255, 141, 27);
+}
+.pink,
+.hover-pink:hover {
+  color: rgb(190, 10, 40);
+}
+
+/* -------------"""-----BACKGROUND COLORS-----"""-------------- */
+
+.bg-red,
+.hover-bg-red:hover {
+  background-color: red;
+}
+.bg-red-1,
+.hover-bg-red-1:hover {
+  background-color: rgb(73, 0, 0);
+}
+.bg-red-2,
+.hover-bg-red-2:hover {
+  background-color: rgb(132, 6, 6);
+}
+.bg-red-3,
+.hover-bg-red-3:hover {
+  background-color: rgb(168, 44, 44);
+}
+.bg-red-4,
+.hover-bg-red-4:hover {
+  background-color: rgb(223, 54, 54);
+}
+.bg-red-5,
+.hover-bg-red-5:hover {
+  background-color: rgb(188, 79, 79);
+}
+.bg-red-6,
+.hover-bg-red-6:hover {
+  background-color: rgb(255, 145, 145);
+}
+.bg-red-7,
+.hover-bg-red-7:hover {
+  background-color: rgb(255, 199, 199);
+}
+
+.bg-blue,
+.hover-bg-blue:hover {
+  background-color: blue;
+}
+.bg-blue-1,
+.hover-bg-blue-1:hover {
+  background-color: rgb(0, 0, 43);
+}
+.bg-blue-2,
+.hover-bg-blue-2:hover {
+  background-color: rgb(24, 24, 83);
+}
+.bg-blue-3,
+.hover-bg-blue-3:hover {
+  background-color: rgb(0, 0, 160);
+}
+.bg-blue-4,
+.hover-bg-blue-4:hover {
+  background-color: rgb(62, 62, 203);
+}
+.bg-blue-5,
+.hover-bg-blue-5:hover {
+  background-color: rgb(96, 96, 205);
+}
+.bg-blue-6,
+.hover-bg-blue-6:hover {
+  background-color: rgb(144, 144, 255);
+}
+.bg-blue-7,
+.hover-bg-blue-7:hover {
+  background-color: rgb(201, 201, 255);
+}
+
+.bg-green,
+.hover-bg-green:hover {
+  background-color: green;
+}
+.bg-green-1,
+.hover-bg-green-1:hover {
+  background-color: rgb(0, 14, 0);
+}
+.bg-green-2,
+.hover-bg-green-2:hover {
+  background-color: rgb(20, 87, 20);
+}
+.bg-green-3,
+.hover-bg-green-3:hover {
+  background-color: rgb(64, 195, 64);
+}
+.bg-green-4,
+.hover-bg-green-4:hover {
+  background-color: rgb(48, 255, 48);
+}
+.bg-green-5,
+.hover-bg-green-5:hover {
+  background-color: rgb(95, 185, 95);
+}
+.bg-green-6,
+.hover-bg-green-6:hover {
+  background-color: rgb(117, 255, 117);
+}
+.bg-green-7,
+.hover-bg-green-7:hover {
+  background-color: rgb(193, 250, 193);
+}
+
+.bg-white,
+.hover-bg-white:hover {
+  background-color: white;
+}
+.bg-white-1,
+.hover-bg-white-1:hover {
+  background-color: rgb(119, 119, 119);
+}
+.bg-white-2,
+.hover-bg-white-2:hover {
+  background-color: rgb(173, 173, 173);
+}
+.bg-white-3,
+.hover-bg-white-3:hover {
+  background-color: rgb(212, 212, 212);
+}
+.bg-white-4,
+.hover-bg-white-4:hover {
+  background-color: rgb(230, 230, 230);
+}
+.bg-white-5,
+.hover-bg-white-5:hover {
+  background-color: rgb(234, 234, 234);
+}
+.bg-white-6,
+.hover-bg-white-6:hover {
+  background-color: rgb(248, 248, 248);
+}
+.bg-white-7,
+.hover-bg-white-7:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.bg-black,
+.hover-bg-black:hover {
+  background-color: rgb(0, 0, 0);
+}
+.bg-black-1,
+.hover-bg-black-1:hover {
+  background-color: rgb(4, 4, 4);
+}
+.bg-black-2,
+.hover-bg-black-2:hover {
+  background-color: rgb(8, 8, 8);
+}
+.bg-black-3,
+.hover-bg-black-3:hover {
+  background-color: rgb(14, 14, 14);
+}
+.bg-black-4,
+.hover-bg-black-4:hover {
+  background-color: rgb(30, 30, 30);
+}
+.bg-black-5,
+.hover-bg-black-5:hover {
+  background-color: rgb(39, 39, 39);
+}
+.bg-black-6,
+.hover-bg-black-6:hover {
+  background-color: rgb(58, 58, 58);
+}
+.bg-black-7,
+.hover-bg-black-7:hover {
+  background-color: rgb(84, 84, 84);
+}
+
+.bg-brown,
+.hover-bg-brown:hover {
+  background-color: brown;
+}
+.bg-brown-1,
+.hover-bg-brown-1:hover {
+  background-color: rgb(49, 26, 26);
+}
+.bg-brown-2,
+.hover-bg-brown-2:hover {
+  background-color: rgb(101, 26, 26);
+}
+.bg-brown-3,
+.hover-bg-brown-3:hover {
+  background-color: rgb(130, 50, 50);
+}
+.bg-brown-4,
+.hover-bg-brown-4:hover {
+  background-color: rgb(176, 71, 71);
+}
+.bg-brown-5,
+.hover-bg-brown-5:hover {
+  background-color: rgb(235, 101, 101);
+}
+.bg-brown-6,
+.hover-bg-brown-6:hover {
+  background-color: rgb(205, 132, 132);
+}
+.bg-brown-7,
+.hover-bg-brown-7:hover {
+  background-color: rgb(144, 100, 100);
+}
+
+.bg-yellow,
+.hover-bg-yellow:hover {
+  background-color: yellow;
+}
+.bg-yellow-1,
+.hover-bg-yellow-1:hover {
+  background-color: rgb(39, 39, 0);
+}
+.bg-yellow-2,
+.hover-bg-yellow-2:hover {
+  background-color: rgb(92, 92, 22);
+}
+.bg-yellow-3,
+.hover-bg-yellow-3:hover {
+  background-color: rgb(223, 223, 11);
+}
+.bg-yellow-4,
+.hover-bg-yellow-4:hover {
+  background-color: rgb(228, 228, 84);
+}
+.bg-yellow-5,
+.hover-bg-yellow-5:hover {
+  background-color: rgb(255, 255, 123);
+}
+.bg-yellow-6,
+.hover-bg-yellow-6:hover {
+  background-color: rgb(180, 180, 117);
+}
+.bg-yellow-7,
+.hover-bg-yellow-7:hover {
+  background-color: rgb(255, 255, 212);
+}
+
+.bg-orange,
+.hover-bg-orange:hover {
+  background-color: rgb(255, 141, 27);
+}
+.bg-pink,
+.hover-bg-pink:hover {
+  background-color: rgb(190, 10, 40);
+}
+
+.bg-dark-1,
+.hover-bg-dark-1:hover {
+  background-color: rgb(13, 27, 34);
+}
+.bg-dark-2,
+.hover-bg-dark-2:hover {
+  background-color: #86578d;
+}
+.bg-dark-3,
+.hover-bg-dark-3:hover {
+  background-color: #c98686;
+}
+.bg-dark-4,
+.hover-bg-dark-4:hover {
+  background-color: #efaf74;
+}
+.bg-dark-5,
+.hover-bg-dark-5:hover {
+  background-color: rgb(81, 147, 179);
+}
+.bg-dark-6,
+.hover-bg-dark-6:hover {
+  background-color: rgb(58, 52, 82);
+}
+.bg-dark-7,
+.hover-bg-dark-7:hover {
+  background-color: rgb(41, 39, 54);
+}
+
+.bg-light-1,
+.hover-bg-light-1:hover {
+  background-color: #fff4ec;
+}
+.bg-light-2,
+.hover-bg-light-2:hover {
+  background-color: #e7cfbc;
+}
+.bg-light-3,
+.hover-bg-light-3:hover {
+  background-color: #e6f9c5;
+}
+.bg-light-4,
+.hover-bg-light-4:hover {
+  background-color: #e8ffff;
+}
+.bg-light-5,
+.hover-bg-light-5:hover {
+  background-color: #ffecf9;
+}
+.bg-light-6,
+.hover-bg-light-6:hover {
+  background-color: #ffd5ec;
+}
+.bg-light-7,
+.hover-bg-light-7:hover {
+  background-color: #ebeff5;
+}
+
+.bg-none,
+.hover-bg-none:hover {
+  background: none;
+}
+
+/* -------------"""-----FONTS FAMILIES-----"""-------------- */
+
+.font-1 {
+  font-family: "static", "Times New Roman", Times, serif;
+}
+.font-2 {
+  font-family: "Platypi", serif;
+}
+.font-3 {
+  font-family: "Bebas Neue", sans-serif;
+}
+.font-4 {
+  font-family: "Lobster", sans-serif;
+}
+.font-5 {
+  font-family: "Permanent Marker", "cursive";
+}
+.font-6 {
+  font-family: "Ga Maamli", sans-serif;
+}
+.font-7 {
+  font-family: "Bungee", sans-serif;
+}
+
+/* -------------"""-----HEIGHT AND WIDTH----"""-------------- */
+
+.width-1 {
+  width: 10px;
+}
+.width-2 {
+  width: 50px;
+}
+.width-3 {
+  width: 90px;
+}
+.width-4 {
+  width: 130px;
+}
+.width-5 {
+  width: 180px;
+}
+.width-6 {
+  width: 300px;
+}
+.width-7 {
+  width: 400px;
+}
+.width-full {
+  width: 100%;
+}
+.width-half {
+  width: 50%;
+}
+
+.width-full-vw {
+  width: 100vw;
+}
+
+.height-1 {
+  height: 10px;
+}
+.height-2 {
+  height: 42px;
+}
+.height-3 {
+  height: 80px;
+}
+.height-4 {
+  height: 130px;
+}
+.height-5 {
+  height: 180px;
+}
+.height-6 {
+  height: 300px;
+}
+.height-7 {
+  height: 400px;
+}
+.height-full {
+  height: 100%;
+}
+.height-half {
+  height: 50%;
+}
+.height-full-vh {
+  height: 100vh;
+}
+
+/* -------------"""-----BOX AND TEXT SHADOW---"""-------------- */
+.b-shadow,
+.hover-b-shadow:hover {
+  box-shadow: 0 0 10px #dadada;
+}
+
+.t-shadow,
+.hover-t-shadow:hover {
+  text-shadow: 0 0 10px #dadada;
+}
+
+/* -------------"""-----MIX PROPERTIES---"""-------------- */
+
+.pointer {
+  cursor: pointer;
+}
+
+.bold,
+.hover-bold {
+  font-weight: 600;
+}
+
+.weight-normal {
+  font-weight: normal;
+}
+
+.italic,
+.hover-italic:hover {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.decoration-underline {
+  text-decoration: underline;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.transition,
+.hover-transition:hover {
+  transition: 0.3s;
+}
+
+.line-height {
+  line-height: 30px;
+}
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
+.button-scale:active {
+  transform: scale(0.94);
+}
+
+/* -------------"""-----BORDERS PROPERTY--"""-------------- */
+
+.border {
+  border: 1px solid #000;
+}
+.border-white,
+.hover-border-white:hover {
+  border: 1px solid #fff;
+}
+.border-white-thik,
+.hover-border-white-thik:hover {
+  border: 3px solid #fff;
+}
+.border-black,
+.hover-border-black:hover {
+  border: 1px solid #000;
+}
+.border-black-thik,
+.hover-border-black-thik:hover {
+  border: 3px solid #000;
+}
+.border-bottom {
+  border-bottom: 1px solid #000;
+}
+.border-bottom-thik {
+  border-bottom: 3px solid #000;
+}
+.border-top {
+  border-top: 1px solid #000;
+}
+.border-top-thik {
+  border-top: 3px solid #000;
+}
+.border-left {
+  border-left: 1px solid #000;
+}
+.border-left-thik {
+  border-left: 3px solid #000;
+}
+.border-right {
+  border-right: 1px solid #000;
+}
+.border-right-thik {
+  border-right: 3px solid #000;
+}
+.border-none {
+  border: none;
+}
+.outline-none {
+  outline: none;
+}
+
+.radius-1 {
+  border-radius: 4px;
+}
+.radius-2 {
+  border-radius: 9px;
+}
+.radius-3 {
+  border-radius: 14px;
+}
+.radius-4 {
+  border-radius: 19px;
+}
+.radius-5 {
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.radius-6 {
+  border-radius: 35px;
+}
+.radius-7 {
+  border-radius: 50%;
+}
+
+/* -------------"""-----POSITION PROPERTY--"""-------------- */
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.sticky {
+  position: sticky;
+}
+.static {
+  position: static;
+}
+
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+.right-0 {
+  right: 0;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.top-1 {
+  top: 15px;
+}
+.left-1 {
+  left: 15px;
+}
+.right-1 {
+  right: 15px;
+}
+.bottom-1 {
+  bottom: 15px;
+}
+
+/* -------------"""-----FLEX BOX--"""-------------- */
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+.direction-column-reverse {
+  flex-direction: column-reverse;
+}
+.direction-row {
+  flex-direction: row;
+}
+.direction-row-reverse {
+  flex-direction: row-reverse;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: start;
+}
+.align-end {
+  align-items: end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.gap {
+  gap: 10px;
+}
+.gap-1 {
+  gap: 4px;
+}
+.gap-2 {
+  gap: 8px;
+}
+.gap-3 {
+  gap: 20px;
+}
+.gap-4 {
+  gap: 35px;
+}
+.gap-5 {
+  gap: 50px;
+}
+.gap-6 {
+  gap: 100px;
+}
+.gap-7 {
+  gap: 150px;
+}
+
+/* -------------"""-----FONT SIZE-----"""-------------- */
+
+.size-1 {
+  font-size: 10px;
+}
+.size-2 {
+  font-size: 12px;
+}
+.size-3 {
+  font-size: 16px;
+}
+.size-4 {
+  font-size: 18px;
+}
+.size-5 {
+  font-size: 22px;
+}
+.size-6 {
+  font-size: 29px;
+}
+.size-7 {
+  font-size: 38px;
+}
+.size-8 {
+  font-size: 50px;
+}
+
+/* -------------"""-----MARGiN AND PADDING-----"""-------------- */
+
+.margin-auto {
+  margin: auto;
+}
+.margin-x-auto {
+  margin: 0 auto;
+}
+.margin-y-auto {
+  margin: auto 0;
+}
+.margin-left-auto {
+  margin-left: auto;
+}
+.margin-right-auto {
+  margin-right: auto;
+}
+.margin-top-auto {
+  margin-top: auto;
+}
+.margin-bottom-auto {
+  margin-bottom: auto;
+}
+
+.margin {
+  margin: 5px;
+}
+.margin-1 {
+  margin: 13px;
+}
+.margin-2 {
+  margin: 25px;
+}
+.margin-3 {
+  margin: 35px;
+}
+.margin-4 {
+  margin: 60px;
+}
+.margin-5 {
+  margin: 90px;
+}
+.margin-6 {
+  margin: 130px;
+}
+.margin-7 {
+  margin: 200px;
+}
+
+.margin-left {
+  margin-left: 5px;
+}
+
+.margin-left-1 {
+  margin-left: 13px;
+}
+.margin-left-2 {
+  margin-left: 25px;
+}
+.margin-left-3 {
+  margin-left: 35px;
+}
+.margin-left-4 {
+  margin-left: 60px;
+}
+.margin-left-5 {
+  margin-left: 90px;
+}
+.margin-left-6 {
+  margin-left: 130px;
+}
+.margin-left-7 {
+  margin-left: 200px;
+}
+
+.margin-right {
+  margin-right: 5px;
+}
+.margin-right-1 {
+  margin-right: 13px;
+}
+.margin-right-2 {
+  margin-right: 25px;
+}
+.margin-right-3 {
+  margin-right: 35px;
+}
+.margin-right-4 {
+  margin-right: 60px;
+}
+.margin-right-5 {
+  margin-right: 90px;
+}
+.margin-right-6 {
+  margin-right: 130px;
+}
+.margin-right-7 {
+  margin-right: 200px;
+}
+
+.margin-top {
+  margin-top: 5px;
+}
+.margin-top-1 {
+  margin-top: 13px;
+}
+.margin-top-2 {
+  margin-top: 25px;
+}
+.margin-top-3 {
+  margin-top: 35px;
+}
+.margin-top-4 {
+  margin-top: 60px;
+}
+.margin-top-5 {
+  margin-top: 90px;
+}
+.margin-top-6 {
+  margin-top: 130px;
+}
+.margin-top-7 {
+  margin-top: 200px;
+}
+
+.margin-bottom {
+  margin-bottom: 5px;
+}
+.margin-bottom-1 {
+  margin-bottom: 13px;
+}
+.margin-bottom-2 {
+  margin-bottom: 25px;
+}
+.margin-bottom-3 {
+  margin-bottom: 35px;
+}
+.margin-bottom-4 {
+  margin-bottom: 60px;
+}
+.margin-bottom-5 {
+  margin-bottom: 90px;
+}
+.margin-bottom-6 {
+  margin-bottom: 130px;
+}
+.margin-bottom-7 {
+  margin-bottom: 200px;
+}
+
+.margin-x {
+  margin: 0 5px;
+}
+.margin-x-1 {
+  margin: 0 13px;
+}
+.margin-x-2 {
+  margin: 0 25px;
+}
+.margin-x-3 {
+  margin: 0 35px;
+}
+.margin-x-4 {
+  margin: 0 60px;
+}
+.margin-x-5 {
+  margin: 0 90px;
+}
+.margin-x-6 {
+  margin: 0 130px;
+}
+.margin-x-7 {
+  margin: 0 200px;
+}
+
+.margin-y {
+  margin: 5px 0;
+}
+.margin-y-1 {
+  margin: 13px 0;
+}
+.margin-y-2 {
+  margin: 25px 0;
+}
+.margin-y-3 {
+  margin: 35px 0;
+}
+.margin-y-4 {
+  margin: 60px 0;
+}
+.margin-y-5 {
+  margin: 90px 0;
+}
+.margin-y-6 {
+  margin: 130px 0;
+}
+.margin-y-7 {
+  margin: 200px 0;
+}
+
+/* PADDINGS */
+
+.padding {
+  padding: 5px;
+}
+.padding-1 {
+  padding: 13px;
+}
+.padding-2 {
+  padding: 25px;
+}
+.padding-3 {
+  margin: 35px;
+}
+.margin-4 {
+  padding: 60px;
+}
+.padding-5 {
+  padding: 90px;
+}
+.padding-6 {
+  padding: 130px;
+}
+.padding-7 {
+  padding: 200px;
+}
+
+.padding-left {
+  padding-left: 5px;
+}
+.padding-left-1 {
+  padding-left: 13px;
+}
+.padding-left-2 {
+  padding-left: 25px;
+}
+.padding-left-3 {
+  padding-left: 35px;
+}
+.padding-left-4 {
+  padding-left: 60px;
+}
+.padding-left-5 {
+  padding-left: 90px;
+}
+.padding-left-6 {
+  padding-left: 130px;
+}
+.padding-left-7 {
+  padding-left: 200px;
+}
+
+.padding-right {
+  padding-right: 5px;
+}
+.padding-right-1 {
+  padding-right: 13px;
+}
+.padding-right-2 {
+  padding-right: 25px;
+}
+.padding-right-3 {
+  padding-right: 35px;
+}
+.padding-right-4 {
+  padding-right: 60px;
+}
+.padding-right-5 {
+  padding-right: 90px;
+}
+.padding-right-6 {
+  padding-right: 130px;
+}
+.padding-right-7 {
+  padding-right: 200px;
+}
+
+.padding-top {
+  padding-top: 5px;
+}
+.padding-top-1 {
+  padding-top: 13px;
+}
+.padding-top-2 {
+  padding-top: 25px;
+}
+.padding-top-3 {
+  padding-top: 35px;
+}
+.padding-top-4 {
+  padding-top: 60px;
+}
+.padding-top-5 {
+  padding-top: 90px;
+}
+.padding-top-6 {
+  padding-top: 130px;
+}
+.padding-top-7 {
+  padding-top: 200px;
+}
+
+.padding-bottom {
+  padding-bottom: 5px;
+}
+.padding-bottom-1 {
+  padding-bottom: 13px;
+}
+.padding-bottom-2 {
+  padding-bottom: 25px;
+}
+.padding-bottom-3 {
+  padding-bottom: 35px;
+}
+.padding-bottom-4 {
+  padding-bottom: 60px;
+}
+.padding-bottom-5 {
+  padding-bottom: 90px;
+}
+.padding-bottom-6 {
+  padding-bottom: 130px;
+}
+.padding-bottom-7 {
+  padding-bottom: 200px;
+}
+
+.padding-x {
+  padding: 0 5px;
+}
+.padding-x-1 {
+  padding: 0 13px;
+}
+.padding-x-2 {
+  padding: 0 25px;
+}
+.padding-x-3 {
+  padding: 0 35px;
+}
+.padding-x-4 {
+  padding: 0 60px;
+}
+.padding-x-5 {
+  padding: 0 90px;
+}
+.padding-x-6 {
+  padding: 0 130px;
+}
+.padding-x-7 {
+  padding: 0 200px;
+}
+
+.padding-y {
+  padding: 5px 0;
+}
+.padding-y-1 {
+  padding: 10px 0;
+}
+.padding-y-2 {
+  padding: 25px 0;
+}
+.padding-y-3 {
+  padding: 35px 0;
+}
+.padding-y-4 {
+  padding: 60px 0;
+}
+.padding-y-5 {
+  padding: 90px 0;
+}
+.padding-y-6 {
+  padding: 130px 0;
+}
+.padding-y-7 {
+  padding: 200px 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#fab01ce0, #ff4596d5);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#a6f223e0, #45b2ffd5);
+}
